@@ -1,0 +1,9 @@
+<launch>
+	<arg name="lidar_type" value="$(env LIDAR_TYPE)" />
+
+	<include file="$(find ydlidar_ros_driver)/launch/X3.launch" if="$(eval arg('lidar_type') == 'x3')"/>
+
+	<include file="$(find ydlidar_ros_driver)/launch/TG.launch" if="$(eval arg('lidar_type') == '4ros')"/>
+
+</launch>
+
