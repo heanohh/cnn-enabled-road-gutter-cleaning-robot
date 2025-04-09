@@ -19,11 +19,17 @@ We made each node for MASTER(PC Ubuntu1), CNN(Jetson Orin Nano), and CAR(PC Ubun
 python3 inference.py
 ```
 -> The files point_coordinates.txt and nanosam/output_image.jpg are created
-2. Send the coordinate to PC ubuntu1.
+2. Run each dode in Jetson Orin Nano, Pc Ubuntu1, Pc ubuntu 2.
 ```bash
-rosrun coordinate_sender sender.py
+roscore
 ```
-3. Recieve the coordinate in PC ubuntu1.
 ```bash
-rosrun coordinate_receiver receiver.py
+catkin_ws/src/launch/master_ros.launch
 ```
+```bash
+catkin_ws/src/launch/CNN_ros.launch
+```
+```bash
+catkin_ws/src/launch/CAR_ros.launch
+```
+
