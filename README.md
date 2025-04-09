@@ -10,6 +10,7 @@ You can check the learned results in nanosam/yolo/custom data and the implemente
 
 - Imbedded algorithm
 ![image](https://github.com/user-attachments/assets/85d39e76-ba2d-4915-9780-d686fd1801d5)
+
 We made each node for MASTER(PC Ubuntu1), CNN(Jetson Orin Nano), and CAR(PC Ubuntu2). And using roslaunch, we'll let them telecommunicate to act like a flowchart. 
 
 
