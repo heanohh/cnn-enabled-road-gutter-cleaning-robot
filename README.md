@@ -20,6 +20,7 @@ We made each node for MASTER(PC Ubuntu1), CNN(Jetson Orin Nano), and CAR(PC Ubun
 python3 inference.py
 ```
 -> The files point_coordinates.txt and nanosam/output_image.jpg are created
+
 2. Run each dode in Jetson Orin Nano, Pc Ubuntu1, Pc ubuntu 2.
 ```bash
 roscore
