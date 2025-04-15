@@ -10,7 +10,7 @@ You can check the learned results in nanosam/yolo/custom data and the implemente
 
 - Imbedded algorithm
 </br>
-![image](https://github.com/user-attachments/assets/9cce4173-6785-4843-9d17-48fcb00074e8)
+![image](https://github.com/user-attachments/assets/123a6875-2036-4925-a748-0ffcbbba5437)
 
 ![image](https://github.com/user-attachments/assets/85d39e76-ba2d-4915-9780-d686fd1801d5)
 
